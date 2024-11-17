@@ -35,6 +35,7 @@ Verilog Code for Traffic Light Controller
 
 
 // Monitor outputs
+```
     module cyclic_lamp(clk,rst,light); 
 input clk,rst; 
 output reg [2:0] light; 
@@ -61,7 +62,7 @@ default: begin
  endcase
 
 endmodule
-
+```
 output:
 ![image](https://github.com/user-attachments/assets/48ab9ff1-b7ba-494f-91d4-76069ba2b471)
 
