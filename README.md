@@ -34,12 +34,12 @@ Verilog Code for Traffic Light Controller
 
 
 
-    // Monitor outputs
+// Monitor outputs
     module cyclic_lamp(clk,rst,light); 
 input clk,rst; 
 output reg [2:0] light; 
- parameter [1:0]S0=2'b00,S1=2'b01,S2=2'b10; 
- parameter RED=3'b100, GREEN=3'b010, YELLOW=3'b001; 
+parameter [1:0]S0=2'b00,S1=2'b01,S2=2'b10; 
+parameter RED=3'b100, GREEN=3'b010, YELLOW=3'b001; 
  reg [1:0] state; 
  always @(posedge clk) 
  
